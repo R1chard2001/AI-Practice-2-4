@@ -58,7 +58,7 @@ namespace Practice_2_4
                     Console.Write("Horizontal move: ");
                 } while (!int.TryParse(Console.ReadLine(), out move) || move < 1 || move > 3);
                 op = new Operator(row-1, col-1, move-1);
-            } while (!op.IsAplicable(currentState));
+            } while (!op.IsApplicable(currentState));
             return op.Apply(currentState);
         }
 

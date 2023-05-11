@@ -23,7 +23,7 @@ namespace Practice_2_4
             }
             foreach (int i in indexList)
             {
-                if (Operators[i].IsAplicable(currentState))
+                if (Operators[i].IsApplicable(currentState))
                 {
                     return Operators[i];
                 }

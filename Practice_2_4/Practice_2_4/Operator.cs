@@ -30,7 +30,7 @@ namespace Practice_2_4
                     throw new Exception();
             }
         }
-        public bool IsAplicable(State state)
+        public bool IsApplicable(State state)
         {
             if (state.Board[row, col] != state.CurrentPlayer)
             {
